@@ -48,7 +48,7 @@
             flavor = "balanced";
             tapping-term-ms = <200>;                        
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <5 6 7 8 9  12 13  15 16 17 18 19  25 26 27 28 29  31 32 33>;    // <---[[right-hand keys + thumbs]]
+            hold-trigger-key-positions = <5 6 7 8 9  12  15 16 17 18 19  25 26 27 28 29  31 32 33>;    // <---[[right-hand keys + thumbs]]
         };
         hm_r: right_hand_positional_hold_tap {
             compatible = "zmk,behavior-hold-tap";
