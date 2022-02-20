@@ -72,10 +72,10 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &trans     &trans     &trans      &trans          &trans       &trans           &trans         &kp UARW      &trans     &trans
+                &kp PRINTSCREEN     &trans     &trans      &trans          &trans       &trans           &trans         &kp UARW      &trans     &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp LARW       &kp DARW    &kp RARW     &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
-                                                  &trans          &trans       &kp ESC          &kp DEL
+                                                  &trans          &trans       &kp ESC          &trans
             >;
         };
 
@@ -102,10 +102,10 @@
         sym_layer {
             label = "Sym";
             bindings = <
-                &kp LBRC     &kp LS(N7)  &kp LS(N8)  &kp LS(N9) &kp RBRC        &trans &trans   &trans    &trans    &trans
-                &kp COLON    &kp LS(N4)  &kp LS(N5)  &kp LS(N6) &kp PLUS        &trans &trans   &trans    &trans    &trans
-                &kp TILDE    &kp LS(N1)  &kp LS(N2)  &kp LS(N3) &kp LS(BSLH)    &trans &trans   &trans    &trans    &trans
-                                                   &kp LS(N0) &kp UNDER         &trans &trans
+                &trans     &kp LT    &kp  EQUAL   &kp GT     &trans        &kp EXCLAMATION &kp LBKT   &kp DLLR    &kp RBKT   &trans
+                &kp GRAVE    &kp LPAR  &kp MINUS  &kp RPAR &kp PLUS          &kp PERCENT &kp LBRC   &kp UNDER    &kp RBRC   &trans
+                &kp TILDE    &kp HASH  &kp AT &kp SLASH &kp LS(BSLH)         &kp CARET &kp PIPE   &kp COLON    &kp AMPERSAND    &trans
+                                                   &trans &trans     &trans &trans
             >;
         };
 
