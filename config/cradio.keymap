@@ -27,7 +27,7 @@
             key-positions = <0 1>;
             bindings = <&caps_word>;
         };
-        combo_caps { 
+        combo_esc { 
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp ESC>;
