@@ -86,7 +86,7 @@
             bindings = <
                 &kp PRINTSCREEN     &trans     &trans      &trans          &trans       &trans           &trans         &kp UARW      &trans     &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp LARW       &kp DARW    &kp RARW     &trans
-                &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
+                &kp LG(Z)      &kp LG(X)      &kp LG(C)           &kp LS(LG(B))          &kp LG(B)        &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
                                                   &trans          &trans       &trans          &trans
             >;
         };
