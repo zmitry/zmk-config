@@ -55,7 +55,7 @@
             flavor = "balanced";
             tapping-term-ms = <200>;                        
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <5 6 7 8 9  12  15 16 17 18 19  25 26 27 28 29  31 32 33>;    // <---[[right-hand keys + thumbs]]
+            hold-trigger-key-positions = <5 6 7 8 9  12 15 16 17 18 19  25 26 27 28 29  31 32 33>;    // <---[[right-hand keys + thumbs]]
         };
         hm_r: right_hand_positional_hold_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -64,7 +64,15 @@
             flavor = "balanced";
             tapping-term-ms = <200>;                        
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4  10 11 12 13 14   16 17  20 21 22 23 24  30 31 32 33>;    // <---[[left-hand keys + thumbs]]
+            hold-trigger-key-positions = <0 1 2 3 4  10 11 12 13 14   16 18 19  20 21 22 23 24  30 31 32 33>;    // <---[[left-hand keys + thumbs]]
+        };
+        hm: common_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "POSITIONAL_HOLD_TAP_RIGHT";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;                        
+            bindings = <&kp>, <&kp>;
         };
     };
 
@@ -75,9 +83,9 @@
             label = "Base";
             bindings = <
                 &kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
-                &hm_l LCTRL A &hm_l LALT S &hm_l LGUI D &hm_l LSHFT F    &kp G         &kp H            &hm_r RSHFT J     &hm_r RGUI K &hm_r LALT L &hm_r RCTRL SCLN
+                &hm_l LCTRL A &hm_l LALT S &hm_l LGUI D &hm_l LSHFT F    &kp G         &kp H            &hm_r RGUI J     &hm_r LALT K &hm_r RSHIFT L &hm_r RCTRL SCLN
                 &kp Z      &kp X      &kp C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
-                                                  &lt SYM_L SPACE &lt NAV_L TAB  &lt NUM_L RET &kp BKSP
+                                                  &lt SYM_L SPACE &lt NAV_L TAB  &lt NUM_L RET &hm RSHIFT BKSP
             >;
         };
 
