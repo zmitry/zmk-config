@@ -34,7 +34,7 @@
         };
         combo_quote { 
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <7 8>;
             bindings = <&kp SQT>;
         };
 
@@ -53,7 +53,7 @@
             label = "POSITIONAL_HOLD_TAP_LEFT";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <220>;                        
+            tapping-term-ms = <200>;                        
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <5 6 7 8 9  12 13 14  15 16 17 18 19  25 26 27 28 29  31 32 33>;    // <---[[right-hand keys + thumbs]]
         };
@@ -62,7 +62,7 @@
             label = "POSITIONAL_HOLD_TAP_RIGHT";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <220>;                        
+            tapping-term-ms = <200>;                        
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <0 1 2 3 4  10 11 12 13 14  16 17 18  20 21 22 23 24  30 31 32 33>;    // <---[[left-hand keys + thumbs]]
         };
@@ -71,7 +71,7 @@
             label = "POSITIONAL_HOLD_TAP_RIGHT";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <320>;   
+            tapping-term-ms = <300>;   
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
