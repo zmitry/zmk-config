@@ -30,7 +30,7 @@
         combo_caps { 
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&caps_word>;
+            bindings = <&prog_caps>;
         };
         combo_quote { 
             timeout-ms = <50>;
