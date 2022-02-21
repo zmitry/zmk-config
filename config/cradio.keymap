@@ -115,8 +115,8 @@
             label = "Sym";
             bindings = <
                 &trans     &kp LT    &kp  EQUAL   &kp GT     &trans          &kp EXCLAMATION &kp LBKT   &kp DLLR    &kp RBKT   &kp DOUBLE_QUOTES
-                &hm_l RCTRL GRAVE    &kp LPAR  &kp UNDERSCORE  &hm_l LGUI RPAR &kp PLUS          &kp PERCENT &kp LBRC   &kp MINUS    &kp RBRC   &kp SINGLE_QUOTE
-                &kp TILDE    &kp HASH  &kp AT &kp SLASH &kp BSLH         &kp CARET &kp PIPE   &kp LS(P)    &kp AMPERSAND    &trans
+                &hm_l RCTRL GRAVE    &kp LPAR  &kp UNDERSCORE  &hm_l LGUI RPAR &kp PERCENT         &kp PLUS &kp LBRC   &kp MINUS    &kp RBRC   &kp SINGLE_QUOTE
+                &kp TILDE    &kp HASH  &kp AT &kp AMPERSAND &trans         &kp CARET &kp PIPE   &kp LS(P)    &kp BSLH    &trans
                                                    &trans &trans     &trans &trans
             >;
         };
