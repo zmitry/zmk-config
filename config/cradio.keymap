@@ -86,7 +86,7 @@
                 &kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
                 &lt MED_L A &hm_l LSHFT S &hm_l LALT D &hm_l LGUI F    &kp G         &kp H            &hm_r RGUI J     &hm_r LALT K &hm_r RSHIFT L &hm_r RCTRL SCLN
                 &kp Z      &kp X      &kp C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
-                                                  &lt SYM_L SPACE &lt NAV_L TAB  &lt NUM_L ESC &kp RSHIFT
+                                                  &lt SYM_L SPACE &lt NAV_L TAB  &lt NUM_L ESC &kp BKSP
             >;
         };
 
